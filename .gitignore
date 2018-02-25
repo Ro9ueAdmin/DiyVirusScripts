@@ -1,33 +1,36 @@
-# Prerequisites
-*.d
+#sources
+*.c text
+*.cc text
+*.cxx text
+*.cpp text
+*.c++ text
+*.hpp text
+*.h text
+*.h++ text
+*.hh text
 
 # Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+*.slo binary
+*.lo binary
+*.o binary
+*.obj binary
 
 # Precompiled Headers
-*.gch
-*.pch
+*.gch binary
+*.pch binary
 
 # Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
+*.so binary
+*.dylib binary
+*.dll binary
 
 # Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+*.lai binary
+*.la binary
+*.a binary
+*.lib binary
 
 # Executables
-*.exe
-*.out
-*.app
- 
+*.exe binary
+*.out binary
+*.app binary
