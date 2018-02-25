@@ -9,3 +9,8 @@ ME AND Rustybalboa Are not responsible for any damage caused to your pc
 HAVE ANY SCRIPTS YOU WOULD LIKE TO SEND US CONTACT US ON DISCORD
 Cloud#7179
 Roosty Baboa#6459
+
+
+
+Creators 
+CloudFTL ByteGig Rustybalboa
