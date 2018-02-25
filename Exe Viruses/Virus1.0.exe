@@ -1,0 +1,21 @@
+private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process process = new System.Diagnostics.Process();
+            System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+            startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+            startInfo.FileName = "cmd.exe";
+            startInfo.Arguments = "script1";
+            process.StartInfo = startInfo;
+            process.Start();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 m = new Form2();
+            m.Show();
+        }
